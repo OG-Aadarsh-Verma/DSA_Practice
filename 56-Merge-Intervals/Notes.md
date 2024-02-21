@@ -5,10 +5,12 @@
 
 #### Time complexity O($N^2$), Space complexity O(N)
 
-### Optimal
+### Better
 * sort the array according in acesnding order of start
 * iterate and compare elements next to eachother
 * if <code>start-i &le; end-i+1</code> then merge and add to new array
 * return new array
 
 ##### Time complexity O($Nlog{_2}{N} + N$), Space complexity O(N)
+
+> **_NOTE:_**  I have not taken the optimal approach for this code. I have yet to work this out.
