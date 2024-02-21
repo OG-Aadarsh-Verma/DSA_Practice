@@ -18,4 +18,4 @@
 * now reset fast and move one step for both fast and slow till 2nd collision
 * value of 2nd collision is a repeat [as it represents the start of the loop in the linked list]
 
-#### Time complexity: O(N), Space complexity: O(N)
+#### Time complexity: O(N), Space complexity: O(1)
